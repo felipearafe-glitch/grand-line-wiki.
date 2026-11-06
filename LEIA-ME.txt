@@ -1,0 +1,6 @@
+GRAND LINE WIKI 7.1
+- Navegação por páginas HTML independentes: cada card mantém seu próprio link.
+- Abas internas dos perfis trocam o conteúdo sem rolar até seções.
+- Visual atualizado com cards ilustrados e fundo temático.
+- Imagens carregadas de endereços externos da internet; conexão necessária para visualizá-las.
+- As imagens pertencem aos respectivos sites/titulares. Projeto independente de fãs.

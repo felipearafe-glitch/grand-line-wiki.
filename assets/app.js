@@ -1,0 +1,2 @@
+document.querySelectorAll("[data-tab]").forEach(btn=>btn.addEventListener("click",()=>{const id=btn.dataset.tab;document.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("active",b===btn));document.querySelectorAll(".tab-panel").forEach(p=>p.classList.toggle("active",p.id===id));}));
+const search=document.querySelector("[data-search]");if(search){search.addEventListener("input",()=>{const q=search.value.toLocaleLowerCase("pt-BR");document.querySelectorAll("[data-name]").forEach(card=>card.hidden=!card.dataset.name.includes(q));});}

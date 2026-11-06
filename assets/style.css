@@ -1,32 +1,31 @@
 *{box-sizing:border-box}
 :root{--bg:#071521;--panel:#10283a;--panel2:#17384d;--ink:#f7f3e8;--muted:#c1d0d6;--gold:#e9b64f;--line:#31536a;--sky:#a8def0}
-html{scroll-behavior:smooth}
-body{margin:0;color:var(--ink);font:16px/1.6 system-ui,sans-serif;background:linear-gradient(180deg,rgba(3,13,23,.88),rgba(3,13,23,.96)),url("https://i.etsystatic.com/61314533/r/il/ba9f1e/7597937668/il_1080xN.7597937668_7u4e.jpg") center top/cover fixed}
+html{scroll-behavior:auto;-webkit-overflow-scrolling:touch}
+body{margin:0;color:var(--ink);font:16px/1.6 system-ui,sans-serif;background-color:#061522;background-image:linear-gradient(180deg,rgba(3,13,23,.90),rgba(3,13,23,.97)),url("https://staticg.sportskeeda.com/editor/2025/01/0aabf-17362825380234-1920.jpg");background-position:center top;background-size:cover;background-repeat:no-repeat;background-attachment:scroll}
 a{color:inherit;text-decoration:none}
 .site-header{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;padding:14px max(18px,calc((100% - 1160px)/2));background:linear-gradient(90deg,#9bdcf0,#c4edfa);color:#071521;border-bottom:3px solid #e8b64f;box-shadow:0 4px 22px #0008}
 .brand{font:900 1.18rem Georgia,serif;letter-spacing:.06em;color:#071521}.brand span{color:#12496a}
 nav{display:flex;gap:8px;flex-wrap:wrap}nav a,.btn{border:1px solid #39728b;background:#e6f8ff;color:#092638;padding:8px 13px;border-radius:8px;font-weight:800}
 nav a:hover,.btn:hover{background:#fff0c9;border-color:#bd8322}
 main{max-width:1160px;margin:auto;padding:28px 18px 70px}
-.hero{position:relative;overflow:hidden;padding:clamp(28px,7vw,72px);border:1px solid #54748a;border-radius:20px;background:linear-gradient(90deg,#061522ed,#061522a8 65%,#06152277),url("https://i.blogs.es/c0ea30/one-piece/1200_900.jpeg") center 35%/cover;box-shadow:0 16px 40px #0008;margin:12px 0 34px}
+.hero{position:relative;overflow:hidden;padding:clamp(28px,7vw,72px);border:1px solid #54748a;border-radius:20px;background-color:#061522;background-image:linear-gradient(90deg,#061522ed,#061522a8 65%,#06152277),url("https://m.economictimes.com/thumb/msid-92073673,width-1200,height-900,resizemode-4,imgsize-67262/one-piece.jpg");background-position:center;background-size:cover;box-shadow:0 16px 40px #0008;margin:12px 0 34px}
 .eyebrow{color:var(--gold);font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;font-weight:900}
 h1{font:clamp(2.2rem,8vw,4.7rem)/.98 Georgia,serif;margin:12px 0;text-shadow:0 3px 16px #000}
 h2{font:clamp(1.5rem,5vw,2.1rem) Georgia,serif;margin:0 0 14px}
 h3{color:#f2c86e;margin:0 0 8px}
 .muted{color:var(--muted)}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-.card{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;min-height:210px;padding:18px;border:1px solid #648096;border-radius:12px;background:linear-gradient(0deg,#02080ff2 0%,#02080f55 62%,#02080f00 100%);box-shadow:0 8px 22px #0007;transition:transform .18s,border-color .18s}
-.card:before{content:"";position:absolute;inset:0;z-index:-2;background-image:var(--card-image,url("https://www.christiantoday.com/media/original/thumbnail/12/23/122395.png"));background-position:center;background-size:cover;transition:transform .35s}
-.card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#02070ff5,#02070f22 78%)}
-.card:hover{transform:translateY(-4px);border-color:var(--gold)}
-.card:hover:before{transform:scale(1.06)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:16px;align-items:start}
+.card{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;min-height:0;aspect-ratio:var(--card-ratio,4/3);padding:18px;border:1px solid #648096;border-radius:12px;background:#071521;box-shadow:0 8px 22px #0007;transition:border-color .18s}
+.card:before{content:"";position:absolute;inset:0;z-index:-2;background-image:var(--card-image);background-position:center;background-size:contain;background-repeat:no-repeat;background-color:#071521}
+.card:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#02070feF 0%,#02070f55 52%,#02070f00 100%)}
+.card:hover{border-color:var(--gold)}
 .card .eyebrow{color:#ffdc88}.card h2,.card h3{color:#fff;text-shadow:0 2px 8px #000;margin:4px 0}.card p{color:#e5edf0;margin:5px 0 0;text-shadow:0 1px 5px #000}
 .search{width:100%;max-width:600px;padding:13px 15px;border-radius:10px;border:1px solid var(--line);background:#0b2132;color:var(--ink);font:inherit;margin:12px 0 20px}
 .pills{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}.pill{font-size:.8rem;border:1px solid var(--line);border-radius:99px;padding:4px 9px;color:var(--muted);background:#0b2132}
 .profile{display:grid;grid-template-columns:minmax(0,1fr);gap:18px}
-.profile-head{position:relative;overflow:hidden;background:linear-gradient(90deg,#061522f5,#061522a0),url("https://www.christiantoday.com/media/original/thumbnail/12/23/122395.png") center/cover;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,5vw,36px);box-shadow:0 12px 30px #0008}
-.profile-head h1{font-size:clamp(2rem,6vw,3.7rem)}
-.tabbar{display:flex;gap:8px;overflow-x:auto;padding:12px 0;position:sticky;top:76px;background:#071521ee;z-index:3}
+.profile-head{position:relative;overflow:hidden;background-color:#061522;background-position:right center;background-size:auto 100%;background-repeat:no-repeat;border:1px solid var(--line);border-radius:18px;padding:clamp(20px,5vw,36px);box-shadow:0 12px 30px #0008}
+.profile-head h1{font-size:clamp(2rem,6vw,3.7rem);max-width:72%}
+.tabbar{display:flex;gap:8px;overflow-x:auto;padding:12px 0;position:sticky;top:76px;background:#071521ee;z-index:3;-webkit-overflow-scrolling:touch;scroll-behavior:auto}
 .tab{white-space:nowrap;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:10px 14px;border-radius:9px;font-weight:800;cursor:pointer}
 .tab.active,.tab:hover{border-color:var(--gold);background:#27475b}
 .tab-panel{display:none;background:linear-gradient(145deg,#10283af5,#0b1c2bf5);border:1px solid var(--line);border-radius:15px;padding:22px;min-height:260px;box-shadow:0 8px 24px #0005}
@@ -35,4 +34,6 @@ h3{color:#f2c86e;margin:0 0 8px}
 .info{background:#091a28;border:1px solid var(--line);padding:15px;border-radius:12px}.info p{margin:5px 0 0;color:#e2eaf0}
 .related{display:flex;gap:8px;flex-wrap:wrap}.related a{border:1px solid var(--line);background:#10283a;padding:8px 11px;border-radius:9px}
 footer{text-align:center;padding:25px;color:var(--muted);border-top:1px solid var(--line);font-size:.85rem;background:#06121ee8}
-@media(max-width:620px){.site-header{padding:12px}.site-header nav{width:100%;overflow-x:auto;flex-wrap:nowrap}.site-header nav a{white-space:nowrap}main{padding:18px 12px 48px}.card{min-height:180px}.profile-head{padding:20px}.tab-panel{padding:16px}.tabbar{top:105px}}
+@media(hover:hover){.card:hover{transform:translateY(-2px)}}
+@media(max-width:620px){.site-header{padding:12px}.site-header nav{width:100%;overflow-x:auto;flex-wrap:nowrap}.site-header nav a{white-space:nowrap}main{padding:18px 12px 48px}.profile-head{padding:20px;background-size:auto 100%}.profile-head h1{max-width:100%}.tab-panel{padding:16px}.tabbar{top:105px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}

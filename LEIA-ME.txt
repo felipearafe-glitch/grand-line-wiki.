@@ -3,3 +3,14 @@ GRAND LINE WIKI 10.1
 Biblioteca revisada: quatro colunas também em telas pequenas, cartões compactos, introduções limitadas visualmente a duas linhas e cartões clicáveis que abrem a ficha em nova aba.
 Os retratos são carregados por correspondência exata de nomes a partir da API pública OnePieceQL. Quando não existe correspondência confirmada, a biblioteca mostra a inicial em vez de uma imagem aleatória.
 Algumas fichas são externas quando ainda não existe artigo local para o personagem.
+
+
+ATUALIZAÇÃO 10.2 — BIBLIOTECA
+- Layout mais espaçoso: duas colunas em celulares, três em tablets, quatro em desktop e cinco em telas largas.
+- Busca por nome e apelidos, filtro alfabético e botão Surpreenda-me.
+- Biografias editoriais originais para personagens de destaque; demais fichas usam apenas dados disponíveis ou aviso de revisão.
+- Imagens associadas apenas por correspondência de nome/apelido nas fontes de dados. Se não houver confirmação, aparece um marcador tipográfico em vez de retrato incorreto.
+- Referências de estrutura editorial: One Piece Wiki (Fandom), One Piece Wiki independente e catálogo oficial de personagens de ONE PIECE.com. Os textos desta edição são originais e não reproduzem verbetes.
+
+
+VERSAO 10.3 - Biblioteca ampliada, espaçamento revisado, busca de retratos baseada no image_url retornado pela API e sem URLs de imagem inventadas. Retratos ausentes usam monograma.

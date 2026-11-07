@@ -14,7 +14,7 @@ jobs:
       - name: Baixar repositório
         uses: actions/checkout@v4
 
-            - name: Extrair site
+      - name: Extrair site
         run: |
           unzip -q Grand_Line_Wiki_10_0_DOWNLOAD.zip -d temp
           SITE_DIR="$(find temp -type f -name index.html -printf '%h\n' | head -n 1)"

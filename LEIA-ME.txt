@@ -14,8 +14,16 @@ Como publicar:
 Projeto independente de fãs. Imagens externas pertencem aos respectivos titulares e sites de origem.
 
 
-Atualização 8.1:
+Atualização 9.0:
 - Ampliação editorial de 26 fichas centrais com contexto, trajetória e habilidades.
 - Índice da busca global atualizado com o novo conteúdo.
 - Ajustes de tipografia, espaçamento, contraste, cards e enquadramento de imagens.
 - As demais fichas continuam identificadas para revisão quando faltarem dados confirmados.
+
+
+VERSÃO 9.0
+- Sistema visual revisado com maior contraste e cores mais nítidas.
+- Melhor hierarquia de títulos, espaçamento, cartões e fichas.
+- Layout responsivo refinado para celulares e telas grandes.
+- Correção da visibilidade dos cartões durante a pesquisa.
+- Registros genéricos sem identificação foram sinalizados como incompletos, em vez de aparentarem ser artigos prontos.

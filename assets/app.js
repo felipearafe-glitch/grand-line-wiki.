@@ -17,3 +17,6 @@ function imageFor(text,href=""){const raw=(text+" "+href).toLocaleLowerCase("pt-
 function setRatio(url,el){const probe=new Image();probe.onload=()=>{if(el.classList.contains("card")){let ratio=probe.naturalWidth/probe.naturalHeight;ratio=Math.max(.62,Math.min(1.65,ratio));el.style.setProperty("--card-ratio",ratio.toFixed(3)+" / 1");}};probe.src=url;}
 document.querySelectorAll(".card").forEach(card=>{const title=card.innerText||card.dataset.name||"";const href=card.getAttribute("href")||"";const eyebrow=card.querySelector(".eyebrow")?.innerText||"";const url=imageFor(title+" "+(card.dataset.name||"")+" "+eyebrow,href);card.style.setProperty("--card-image","url(\""+url+"\")");setRatio(url,card);});
 const profile=document.querySelector(".profile-head");if(profile){const title=profile.querySelector("h1")?.innerText||document.title;const kind=profile.querySelector(".eyebrow")?.innerText||"";const url=imageFor(title+" "+kind,location.pathname);profile.style.backgroundImage="linear-gradient(90deg,rgba(6,21,34,.97),rgba(6,21,34,.70) 58%,rgba(6,21,34,.12)),url(\""+url+"\")";}
+
+// Corrige a regra de display dos cards durante a busca.
+document.querySelectorAll(".card[hidden]").forEach(el=>el.hidden=true);

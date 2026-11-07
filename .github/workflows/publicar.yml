@@ -1,3 +1,4 @@
+
 name: Publicar Grand Line Wiki
 
 on:
@@ -16,7 +17,7 @@ jobs:
 
       - name: Extrair site
         run: |
-          unzip -q Grand_Line_Wiki_10_0_DOWNLOAD.zip -d temp
+          unzip -q Grand_Line_Wiki_10_1_DOWNLOAD.zip -d temp
           SITE_DIR="$(find temp -type f -name index.html -printf '%h\n' | head -n 1)"
           if [ -z "$SITE_DIR" ]; then
             echo "index.html não encontrado no ZIP"
@@ -31,5 +32,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
           git reset -- .github/workflows/publicar.yml
-          git commit -m "Publicar Grand Line Wiki 10.0" || echo "Sem alterações"
+          git commit -m "Publicar Grand Line Wiki 10.1" || echo "Sem alterações"
           git push
+          

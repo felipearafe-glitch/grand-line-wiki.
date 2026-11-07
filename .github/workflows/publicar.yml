@@ -16,7 +16,7 @@ jobs:
 
       - name: Extrair site
         run: |
-unzip -q Grand_Line_Wiki_10_0_DOWNLOAD.zip -d temp
+          unzip -q Grand_Line_Wiki_10_0_DOWNLOAD.zip -d temp
           cp -a temp/Grand_Line_Wiki_7/. .
           rm -rf temp
 
@@ -25,5 +25,5 @@ unzip -q Grand_Line_Wiki_10_0_DOWNLOAD.zip -d temp
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -A
-          git commit -m "Publicar Grand Line Wiki 7.1" || echo "Sem alterações"
+          git commit -m "Publicar Grand Line Wiki 10.0" || echo "Sem alterações"
           git push

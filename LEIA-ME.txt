@@ -1,6 +1,14 @@
-GRAND LINE WIKI 7.1
-- Navegação por páginas HTML independentes: cada card mantém seu próprio link.
-- Abas internas dos perfis trocam o conteúdo sem rolar até seções.
-- Visual atualizado com cards ilustrados e fundo temático.
-- Imagens carregadas de endereços externos da internet; conexão necessária para visualizá-las.
-- As imagens pertencem aos respectivos sites/titulares. Projeto independente de fãs.
+GRAND LINE WIKI 8.0
+
+Melhorias desta versão:
+- Busca global na página inicial, pesquisando os artigos individuais da pasta paginas.
+- Busca local das categorias corrigida, inclusive para termos com acentos.
+- Layout mais espaçoso, cartões maiores e melhor adaptação para celulares.
+- Índice de pesquisa gerado a partir dos artigos existentes.
+
+Como publicar:
+1. Envie o arquivo Grand_Line_Wiki_8_0_DOWNLOAD.zip para a raiz do repositório GitHub.
+2. Para manter o fluxo de publicação atual, renomeie o ZIP para Grand_Line_Wiki_7_2_DOWNLOAD.zip antes de enviar.
+3. Abra Actions > Publicar Grand Line Wiki > Run workflow.
+
+Projeto independente de fãs. Imagens externas pertencem aos respectivos titulares e sites de origem.

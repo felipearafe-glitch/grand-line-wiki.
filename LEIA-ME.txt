@@ -27,3 +27,15 @@ VERSÃO 9.0
 - Layout responsivo refinado para celulares e telas grandes.
 - Correção da visibilidade dos cartões durante a pesquisa.
 - Registros genéricos sem identificação foram sinalizados como incompletos, em vez de aparentarem ser artigos prontos.
+
+
+VERSÃO 10.0
+- Biblioteca dedicada com 500 entradas de personagens, em ordem alfabética.
+- Cartões compactos em quatro colunas em telas grandes e layout responsivo.
+- Busca instantânea e miniaturas temáticas.
+- Link da biblioteca na navegação e destaque na página inicial.
+- Artigos e categorias anteriores preservados.
+
+Publicação: extraia o conteúdo desta versão na raiz do repositório usado pelo GitHub Pages.
+
+Nota editorial: a biblioteca reúne 500 entradas compactas de personagens nomeados e figuras recorrentes do universo One Piece. Nem todas as entradas possuem uma ficha individual completa; as descrições são introdutórias e devem ser ampliadas com referências do mangá/databooks.

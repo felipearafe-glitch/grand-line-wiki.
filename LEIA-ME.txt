@@ -1,41 +1,5 @@
-GRAND LINE WIKI 8.0
+GRAND LINE WIKI 10.1
 
-Melhorias desta versão:
-- Busca global na página inicial, pesquisando os artigos individuais da pasta paginas.
-- Busca local das categorias corrigida, inclusive para termos com acentos.
-- Layout mais espaçoso, cartões maiores e melhor adaptação para celulares.
-- Índice de pesquisa gerado a partir dos artigos existentes.
-
-Como publicar:
-1. Envie o arquivo Grand_Line_Wiki_8_0_DOWNLOAD.zip para a raiz do repositório GitHub.
-2. Para manter o fluxo de publicação atual, renomeie o ZIP para Grand_Line_Wiki_7_2_DOWNLOAD.zip antes de enviar.
-3. Abra Actions > Publicar Grand Line Wiki > Run workflow.
-
-Projeto independente de fãs. Imagens externas pertencem aos respectivos titulares e sites de origem.
-
-
-Atualização 9.0:
-- Ampliação editorial de 26 fichas centrais com contexto, trajetória e habilidades.
-- Índice da busca global atualizado com o novo conteúdo.
-- Ajustes de tipografia, espaçamento, contraste, cards e enquadramento de imagens.
-- As demais fichas continuam identificadas para revisão quando faltarem dados confirmados.
-
-
-VERSÃO 9.0
-- Sistema visual revisado com maior contraste e cores mais nítidas.
-- Melhor hierarquia de títulos, espaçamento, cartões e fichas.
-- Layout responsivo refinado para celulares e telas grandes.
-- Correção da visibilidade dos cartões durante a pesquisa.
-- Registros genéricos sem identificação foram sinalizados como incompletos, em vez de aparentarem ser artigos prontos.
-
-
-VERSÃO 10.0
-- Biblioteca dedicada com 500 entradas de personagens, em ordem alfabética.
-- Cartões compactos em quatro colunas em telas grandes e layout responsivo.
-- Busca instantânea e miniaturas temáticas.
-- Link da biblioteca na navegação e destaque na página inicial.
-- Artigos e categorias anteriores preservados.
-
-Publicação: extraia o conteúdo desta versão na raiz do repositório usado pelo GitHub Pages.
-
-Nota editorial: a biblioteca reúne 500 entradas compactas de personagens nomeados e figuras recorrentes do universo One Piece. Nem todas as entradas possuem uma ficha individual completa; as descrições são introdutórias e devem ser ampliadas com referências do mangá/databooks.
+Biblioteca revisada: quatro colunas também em telas pequenas, cartões compactos, introduções limitadas visualmente a duas linhas e cartões clicáveis que abrem a ficha em nova aba.
+Os retratos são carregados por correspondência exata de nomes a partir da API pública OnePieceQL. Quando não existe correspondência confirmada, a biblioteca mostra a inicial em vez de uma imagem aleatória.
+Algumas fichas são externas quando ainda não existe artigo local para o personagem.

@@ -16,7 +16,7 @@ jobs:
 
       - name: Extrair site
         run: |
-          unzip -q Grand_Line_Wiki_9_3_DOWNLOAD.zip -d temp
+          unzip -q Grand_Line_Wiki_1_0_DOWNLOAD.zip -d temp
           cp -a temp/Grand_Line_Wiki_7/. .
           rm -rf temp
 
